@@ -13,9 +13,9 @@
     "mongoose": "^4.1.12"
   },
   "devDependencies": {
-    "async": "*",
-    "chai": "*",
-    "mocha": "*",
+    "async": "^3.2.4",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
     "mongoose": "^4.1.12"
   },
   "keywords": [
@@ -58,7 +58,7 @@
     }
   ],
   "scripts": {
-    "test": "node_modules/mocha/bin/mocha"
+    "test": "mocha"
   },
   "bugs": {
     "url": "https://github.com/codetunnel/mongoose-auto-increment/issues"
